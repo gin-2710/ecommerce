@@ -135,3 +135,10 @@ GitHub.sublime-settings
 !.vscode/launch.json 
 !.vscode/extensions.json 
 .history
+
+#Ignore pycache and migrations in all apps
+__pycache__/
+*/__pycache__/
+*/migrations/
+**/__pycache__/
+**/migrations/
